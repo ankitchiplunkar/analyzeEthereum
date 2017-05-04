@@ -19,7 +19,7 @@ def openCSVWriter(file_name):
 blknum, pos = 0, 0
 # gethDumpFileName = 'geth-914358.dump'
 # gethDumpFileName = 'geth-1055375.dump'
-gethDumpFileName = 'geth-3604935.dump'
+gethDumpFileName = 'geth.dump'
 f = open(gethDumpFileName)
 blockData = []
 transactionData = []
